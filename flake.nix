@@ -23,6 +23,13 @@
         inputs.treefmt-nix.flakeModule
       ];
 
+      flake = {
+        default = {
+          path = ./.;
+          description = "A Gleam-lang template created by haruki7049";
+        };
+      };
+
       perSystem =
         {
           pkgs,
