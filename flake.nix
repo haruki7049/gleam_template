@@ -24,7 +24,7 @@
       ];
 
       flake = {
-        default = {
+        templates.default = {
           path = ./.;
           description = "A Gleam-lang template created by haruki7049";
         };
